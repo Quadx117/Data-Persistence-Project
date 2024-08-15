@@ -88,6 +88,7 @@ public class MainManager : MonoBehaviour
         {
             DataPersistenceManager.Instance.BestScore = DataPersistenceManager.Instance.CurrentPlayerBestScore;
             DataPersistenceManager.Instance.BestScorePlayerName = DataPersistenceManager.Instance.CurrentPlayerName;
+            DataPersistenceManager.Instance.SaveBestScore();
         }
 
         BestScoreText.text = DataPersistenceManager.Instance.GetBestScoreString();
