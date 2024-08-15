@@ -1,5 +1,5 @@
-#if UNITY_EDITOR
 using TMPro;
+#if UNITY_EDITOR
 using UnityEditor;
 #endif
 using UnityEngine;
